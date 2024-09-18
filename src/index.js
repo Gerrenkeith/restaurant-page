@@ -1,4 +1,6 @@
 console.log('gerren')
+const content = document.getElementById('content')
+const image = document.createElement('img');
+image.src = '/fries-svgrepo-com.png';
 
-const content = document.getElementById("content");
-console.log(content)
+content.appendChild(image)
