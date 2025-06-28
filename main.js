@@ -10,43 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./burger-huge-svgrepo-com.png":
-/*!*************************************!*\
-  !*** ./burger-huge-svgrepo-com.png ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"35fad7790487fe2bc48e.png\";\n\n//# sourceURL=webpack://webpack-practice/./burger-huge-svgrepo-com.png?");
-
-/***/ }),
-
-/***/ "./drink.png":
-/*!*******************!*\
-  !*** ./drink.png ***!
-  \*******************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"353790d7c8a55b6ebf2e.png\";\n\n//# sourceURL=webpack://webpack-practice/./drink.png?");
-
-/***/ }),
-
-/***/ "./fries-svgrepo-com.png":
-/*!*******************************!*\
-  !*** ./fries-svgrepo-com.png ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"00b86ccb1aece2ca6358.png\";\n\n//# sourceURL=webpack://webpack-practice/./fries-svgrepo-com.png?");
-
-/***/ }),
-
 /***/ "./src/about.js":
 /*!**********************!*\
   !*** ./src/about.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _drink_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../drink.png */ \"./drink.png\");\n\n\nfunction about(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = _drink_png__WEBPACK_IMPORTED_MODULE_0__;\n    \n    content.appendChild(image)\n    \n    }\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (about);\n\n//# sourceURL=webpack://webpack-practice/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction about(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = '/drink.png';\n    \n    content.appendChild(image)\n    \n    }\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (about);\n\n//# sourceURL=webpack://webpack-practice/./src/about.js?");
 
 /***/ }),
 
@@ -56,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _fries_svgrepo_com_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../fries-svgrepo-com.png */ \"./fries-svgrepo-com.png\");\n\n\nfunction home(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = _fries_svgrepo_com_png__WEBPACK_IMPORTED_MODULE_0__;\n    \n    content.appendChild(image)\n    \n    const headline = document.createElement('h1');\n    headline.innerHTML = 'Welcome to Fry City';\n    \n    content.appendChild(headline)\n    \n    const about = document.createElement('p');\n    about.innerHTML = 'Here at Fry City we give you the best fries and all its variations.<br> Enjoy our Birria Fries, Carne Asada Fries, and the house favorite Pulled Pork Fries'\n    \n    content.appendChild(about)\n    }\n\n    /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n    \n    \n\n//# sourceURL=webpack://webpack-practice/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   home: () => (/* binding */ home)\n/* harmony export */ });\nfunction home(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = '/fries-svgrepo-com.png';\n    \n    content.appendChild(image)\n    \n    const headline = document.createElement('h1');\n    headline.innerHTML = 'Welcome to Fry City';\n    \n    content.appendChild(headline)\n    \n    const about = document.createElement('p');\n    about.innerHTML = 'Here at Fry City we give you the best fries and all its variations.<br> Enjoy our Birria Fries, Carne Asada Fries, and the house favorite Pulled Pork Fries'\n    \n    content.appendChild(about)\n    }\n\n    \n    \n\n//# sourceURL=webpack://webpack-practice/./src/home.js?");
 
 /***/ }),
 
@@ -76,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menu: () => (/* binding */ menu)\n/* harmony export */ });\n/* harmony import */ var _burger_huge_svgrepo_com_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../burger-huge-svgrepo-com.png */ \"./burger-huge-svgrepo-com.png\");\n\n\nfunction menu(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = _burger_huge_svgrepo_com_png__WEBPACK_IMPORTED_MODULE_0__;\n    \n    content.appendChild(image)\n    \n    }\n\n//# sourceURL=webpack://webpack-practice/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   menu: () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = '/burger-huge-svgrepo-com.png';\n    \n    content.appendChild(image)\n    \n    }\n\n//# sourceURL=webpack://webpack-practice/./src/menu.js?");
 
 /***/ })
 
@@ -119,18 +89,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -145,29 +103,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
