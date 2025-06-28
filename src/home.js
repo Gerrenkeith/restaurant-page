@@ -1,7 +1,6 @@
 import Fries from "../fries-svgrepo-com.png"
 
 function home(){
-    console.log('gerren')
     const content = document.getElementById('content')
     const image = document.createElement('img');
     image.src = Fries;
