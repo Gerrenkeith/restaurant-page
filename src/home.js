@@ -1,8 +1,10 @@
-export function home(){
+import Fries from "../fries-svgrepo-com.png"
+
+function home(){
     console.log('gerren')
     const content = document.getElementById('content')
     const image = document.createElement('img');
-    image.src = '/fries-svgrepo-com.png';
+    image.src = Fries;
     
     content.appendChild(image)
     
@@ -17,5 +19,6 @@ export function home(){
     content.appendChild(about)
     }
 
+    export default home;
     
     

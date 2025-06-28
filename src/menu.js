@@ -1,9 +1,12 @@
-export function menu(){
-    console.log('gerren')
+import Burger from '../burger-huge-svgrepo-com.png'
+
+ function menu(){
     const content = document.getElementById('content')
     const image = document.createElement('img');
-    image.src = '/burger-huge-svgrepo-com.png';
+    image.src = Burger;
     
     content.appendChild(image)
     
     }
+    
+export default menu;

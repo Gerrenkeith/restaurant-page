@@ -1,5 +1,5 @@
-import { home } from "./home.js"
-import { menu } from "./menu.js"
+import  home  from "./home.js"
+import  menu from "./menu.js"
 import  about  from "./about.js";
 const homePage = document.getElementById('home');
 const menuPage = document.getElementById('menu');
@@ -20,4 +20,3 @@ homePage.addEventListener('click',()=>{handleClick(); home()});
 menuPage.addEventListener('click', ()=>{handleClick(); menu()});
 aboutPage.addEventListener('click', ()=>{handleClick(); about()});
 
-console.log('nigga')
