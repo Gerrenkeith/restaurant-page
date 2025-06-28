@@ -46,7 +46,7 @@ eval("module.exports = __webpack_require__.p + \"00b86ccb1aece2ca6358.png\";\n\n
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _drink_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../drink.png */ \"./drink.png\");\n\n\nfunction about(){\n    console.log('gerren')\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = _drink_png__WEBPACK_IMPORTED_MODULE_0__;\n    \n    content.appendChild(image)\n    \n    }\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (about);\n\n//# sourceURL=webpack://webpack-practice/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _drink_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../drink.png */ \"./drink.png\");\n\n\nfunction about(){\n    const content = document.getElementById('content')\n    const image = document.createElement('img');\n    image.src = _drink_png__WEBPACK_IMPORTED_MODULE_0__;\n    \n    content.appendChild(image)\n    \n    }\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (about);\n\n//# sourceURL=webpack://webpack-practice/./src/about.js?");
 
 /***/ }),
 
