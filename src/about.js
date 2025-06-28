@@ -1,4 +1,4 @@
-export function about(){
+function about(){
     console.log('gerren')
     const content = document.getElementById('content')
     const image = document.createElement('img');
@@ -7,3 +7,5 @@ export function about(){
     content.appendChild(image)
     
     }
+
+export default about;
